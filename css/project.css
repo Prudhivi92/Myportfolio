@@ -1,0 +1,497 @@
+
+
+body{
+    background-color: #ffffff;
+    margin:0px;
+    
+  }
+  
+  
+  
+  .button {
+    padding: 14px 24px;
+    background-color: #000000;
+    border: 4px;
+    border-color: linear-gradient(104deg, #00d0ff 0%, rgb(132, 0, 255) 100%);
+    border-radius: 48px;
+    font-family: 'space grotesk';
+    font-size: 16px;
+    color: #ffffff;
+  
+    }
+    
+    .hero_section h1{
+      font-family: 'space grotesk';
+      font-size: 54px;
+      color: #000000;
+      text-align: center;
+      margin-bottom: 32px;
+    }
+  
+  
+    .Textlink2{
+  
+      font-family: 'space grotesk';
+      font-size: 16px;
+      font-weight: 500;
+      color: #000000;
+      padding: 14px 24px;
+      text-decoration: none;
+    }
+  
+    ul {
+      list-style-type: none;
+    }
+  
+  
+  
+    .hero_section{
+      max-width: 850px;
+      margin-left: auto;
+      margin-right: auto;
+      align-items: center;
+      padding-bottom:130px;
+    }
+  
+
+    .hero_section img{
+
+        width:850px;
+        height:auto;
+    }
+  
+    .text_color{
+  
+      background: linear-gradient(118deg, #D95F2F 38.46%, #CE3D7E 50.27%, #B91EBD 62.09%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  
+    .navbar{
+        max-width: 1200px;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px 24px;
+  
+    }
+  
+
+  
+  
+     /*  Start media query for 1200px */
+    
+    @media (max-width:1024px){
+  
+      .navbar .hamburger span{
+      width: 24px;
+      height: 3px;
+      background-color: rgb(8, 15, 26);
+      display: block;
+      margin: 4px auto;
+      }
+      .navbar {
+        padding: 14px 24px;
+        }
+  
+        .navigation1{
+          display: none;
+        }
+        .btn{
+  
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          gap: 24px;
+        }
+        .hero_section h1{
+  
+          font-size: 52px;
+        }
+        .hero_section p{
+  
+          font-size: 16px;
+        }
+        .container .bg_text{
+  
+          font-size: 100px;
+          top: -260px;
+        }
+        .container{
+        background-image: url("/images/bgimage.png");
+      }
+      
+      
+      .fold_section {
+        padding:24px;
+      } 
+       
+    }
+ 
+  
+  
+    .nav{
+      display: flex;
+      justify-content:space-between;
+      align-items: center;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 14px 0px;
+      background-color: #f5f5f5;
+      border-radius: 48px;
+  }
+  
+  
+  
+ 
+  
+  .projectdetail{
+    max-width: 1200px;
+    background-size: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
+
+
+/* Footer css */
+
+  .footer{
+    background-color: #000000;
+    
+  }
+  
+  .footer h2{
+    font-family: 'space grotesk';
+    font-size: 40px;
+    color: #ffffff;
+  }
+  
+  .footer p{
+    color: #ffffff;
+    text-align: left;
+    font-family: 'space grotesk';
+    font-size: 16px;
+  }
+  
+  .content{
+  
+    max-width: 1200px;
+    justify-content: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 24px 0px;
+    
+  }
+  
+  .copyright{
+    
+    margin-left: auto;
+    margin-right: auto;
+    justify-items: center;
+    background-color: #181818;
+  }
+  
+  .copyright p{
+    color: #ffffff;
+    font-family: 'space grotesk';
+    font-size: 12px;
+    font-weight: normal;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  } 
+  
+  
+  .contact{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+    padding-bottom: 72px;
+    padding-top: 72px;
+  }
+  
+  
+  .phone{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  
+  .email{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    
+  }
+ 
+  
+  /* Project details */
+  
+  .projects_section h2{
+    font-family: 'space grotesk';
+    font-size: 40px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 32px;
+    max-width: 800px;
+  }
+  
+  .projects_section {
+    
+    justify-items: center;
+    background-color: #F6F7F9;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+
+  .projects_section h3{
+
+    font-family: 'space grotesk';
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+  }
+  
+
+  .hero_section p{
+    color: #464646;
+    text-align: center;
+    font-family: 'space grotesk';
+    font-size: 16px;
+    line-height: 30px;
+    max-width: 970px;
+  }
+  .projects_section p{
+    color: #464646;
+    text-align: center;
+    font-family: 'space grotesk';
+    font-size: 16px;
+    line-height: 30px;
+    max-width: 970px;
+  }
+
+  .projects_section img{
+    width: 140px;
+    height: auto;
+  }
+
+  .fold_section{
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;  
+  }
+
+
+  .skills_section .fold_section .skills{
+
+    background-color:#f6f7f9;
+    width: 300px;
+    justify-items: center;
+  }
+  .projects_research h2{
+    font-family: 'space grotesk';
+    font-size: 40px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 32px;
+    max-width: 800px;
+  }
+  
+  .projects_research {
+    
+    justify-items: center;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .projectcheck{
+
+   display: flex;
+   gap:32px;
+  }
+  .text_area{
+    background-color: #ffffff;
+    max-width: 536px;
+    height:368;
+    padding: 32px;
+    border-radius:20px 0px 0px 20px;
+    align-content:center;
+  
+  }
+
+
+  
+
+  .image_area{
+    background-color: #DDE7F9;
+    width:536px;
+    height:368px;
+    padding: 32px;
+    border-radius:0px 20px 20px 0px;
+  
+  }
+  
+  .project_a{
+
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+  
+  }
+  .project_a {
+    padding-top: 24px;
+  }
+
+
+  .text_area p{
+    color: #464646;
+    text-align: left;
+    font-family: 'space grotesk';
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .text_area h3{
+    color: #000000;
+    text-align: left;
+    font-family: 'space grotesk';
+    font-weight: bold;
+    font-size: 24px;
+  }
+
+  .text_areacheck{
+    
+    border-radius:0px 0px 20px 20px;
+    align-content:center;
+    width:490px;
+    background-color: #DDE7F9;
+  
+  }
+
+  .project_acheck{
+
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #DDE7F9 ;
+    border-radius: 24px;
+  
+  }
+
+  .text_areacheck p{
+    color: #464646;
+    text-align: left;
+    font-family: 'space grotesk';
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0px 24px 24px 24px;
+    margin: 0px;
+  }
+
+
+
+  .sourceimage img{
+
+    width: 100%;
+    height: auto;
+    min-height: 386px;
+    max-width: 100%;
+}
+
+
+.sourceimagecheck img{
+
+    width: 490px;
+    height: auto;
+}
+
+
+.findings .text_area_findings h3{
+    color: #000000;
+    text-align: center;
+    font-family: 'space grotesk';
+    font-weight: bold;
+    font-size: 24px;
+    margin:0px;
+    padding-top: 120px;
+  }
+
+  .findings .text_area_findings p{
+    color: #464646;
+    text-align: center;
+    font-family: 'space grotesk';
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 750px;
+    margin: 0px;
+    padding: 16px 0px 24px 0px;
+  }
+
+  .findings{
+
+    justify-items: center;
+
+  }
+
+  .findings .image img{
+    width: 970px;
+    height: auto;
+    min-height: 600px;
+    max-width: 100%;
+    margin-top: -1px;
+  }
+
+  .projects_research h3{
+    color: #000000;
+    font-family: 'space grotesk';
+    font-weight: bold;
+    font-size: 24px;
+    padding-top: 120px;
+    padding-bottom: 24px;
+    
+  }
+
+  .text{
+
+    width: 100%;
+    height: auto;
+    /* padding-top: 48px;
+    padding-bottom: 48px; */
+    background-color: #ffffff;
+    justify-items: center;
+  
+  }
+  .text h3{
+
+    width: 850px;
+    height: auto;
+    justify-items: center;
+    color: #000000;
+    font-family: 'space grotesk';
+    font-weight: bold;
+    font-size: 54px;
+    text-align: center;
+    margin:0px;
+    padding: 120px 0px 0px 0px;
+  
+  }
